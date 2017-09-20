@@ -1,0 +1,2 @@
+# automaattestimine
+Projekt automaattestimises
