@@ -1,1 +1,14 @@
 
+ */
+public class HttpUtilityTest {
+    @Test
+    public void testHttpConnectionExampleApi(){
+        try {
+            String requestUrl = "API REQUEST URL>";
+
+            HttpURLConnection con = HttpUtilities.makeHttpGetRequest(requestUrl);
+            assertEquals(con.getResponseCode(), 200);
+
+        } catch (IOException ioq) {
+            fail("HTTP connection threw error:" + ioq.getLocalizedMessage());
+        }
