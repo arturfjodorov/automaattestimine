@@ -12,3 +12,126 @@ public class HttpUtilityTest {
         } catch (IOException ioq) {
             fail("HTTP connection threw error:" + ioq.getLocalizedMessage());
         }
+        @Test
+    public void testWeatherInCity() {
+    }
+    @Test
+    public void testWeatherFahrenheit() {
+
+    }
+    @Test
+    public void testWeatherCelsius() {
+
+    }
+
+    @Test
+    public void testLocationByCoordinatesCountry(){
+    }
+    @Test
+    public void testLocationByCoordinatesTown(){
+
+    }
+    @Test
+    public void testLowestTemperatureFirstDay(){
+
+    }
+    @Test
+    public void testHighestTemperatureFirstDay(){
+
+    }
+    @Test
+    public void testLowestTemperatureSecondDay() {
+
+    }
+    @Test
+    public void testHighestTemperatureSecondDay(){
+
+    }
+    @Test
+    public void testLowestTemperatureThirdDay() {
+
+    }
+    @Test
+    public void testHighestTemperatureThirdDay() {
+
+    }
+    @Test
+    public void testWindSpeedInKilometersPerMinute() {
+
+    }
+    @Test
+    public void testWindSpeedInMetersPerSecond() {
+
+    }
+    @Test
+    public void testIsSunnyWeather() {
+
+    }
+    @Test
+    public void testIsCloudyWeather() {
+
+    }
+    @Test
+    public void testIsRainyWeather() {
+
+    }
+    @Test
+    public void testThunderstormWeather() {
+
+    }
+    @Test
+    public void testSnowyWeather() {
+
+    }
+    @Test
+    public void testHumidityWeather() {
+
+    }
+    @Test
+    public void testFogWeather() {
+
+    }
+    @Test
+    public void testPrecipitationInMillimetersPerDay() {
+
+    }
+    @Test
+    public void testPrecipitationPerDay() {
+
+    }
+    @Test
+    public void testWeatherOnMonday() {
+
+    }
+    @Test
+    public void testWeatherOnTuesday() {
+
+    }
+    @Test
+    public void testWeatherOnWednesday() {
+
+    }
+    @Test
+    public void testWeatherOnThursday() {
+
+    }
+    @Test
+    public void testWeatherOnFriday() {
+
+    }
+    @Test
+    public void testWeatherOnSaturday() {
+
+    }
+    @Test
+    public void testWeatherOnSunday() {
+
+    }
+    @Test
+    public void testSunriseTime() {
+
+    }
+    @Test
+    public void testSunsetTime() {
+
+    }
