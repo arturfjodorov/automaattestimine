@@ -24,12 +24,14 @@ public class HttpUtilityTest {
     public void testWeatherCelsius() {
 
     }
-
     @Test
-    public void testLocationByCoordinatesCountry(){
+    public void testWeatherInLondon() {
+        assertEquals("London", WeatherInCity("London"));
+
     }
     @Test
     public void testLocationByCoordinatesTown(){
+        assertEquals("-0.13:51.51", WeatherByCoordinates(-0.13,51.51));
 
     }
     @Test
